@@ -1,0 +1,495 @@
+Dependencies for Project 'Voice', Target 'Target 1': (DO NOT MODIFY !)
+F (..\Core\system_stm32f10x.c)(0x5785E33F)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\Core -I ..\Lib_code\App -I ..\Lib_code\SysHard\inc -I ..\Lib_code\SysLib\inc -I ..\User\Key -I ..\User\LED -I ..\User\VoicePlay -I ..\User\VoiceRecognition -I ..\User\PowerStatus -I ..\User\VOICE -I ..\User\WT558D-I E:\xjx\---ing\”Ô“Ù-\48.”Ô“Ù ∂±≤•±®∆˜\Trunk\SRC\Project\RTE-I "D:\Program Files (x86)\Keil 5.20\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I "D:\Program Files (x86)\Keil 5.20\ARM\CMSIS\Include"-D__UVISION_VERSION="520" -DSTM32F10X_MD-o ..\output\system_stm32f10x.o --omf_browse ..\output\system_stm32f10x.crf --depend ..\output\system_stm32f10x.d)
+I (..\Lib_code\App\BF_type.h)(0x5785E33C)
+I (..\Lib_code\SysLib\inc\BestFuLib.h)(0x5785E33D)
+I (..\Core\stm32f10x.h)(0x5785E33F)
+I (..\Core\core_cm3.h)(0x5785E33F)
+I (D:\Program Files (x86)\Keil 5.20\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (..\Core\system_stm32f10x.h)(0x5785E33F)
+I (..\Lib_code\SysLib\inc\DevPartTab.h)(0x5785E33D)
+F (..\Core\startup_stm32f10x_md.s)(0x57CFD70F)(--cpu Cortex-M3 -g --apcs=interwork -I E:\xjx\---ing\”Ô“Ù-\48.”Ô“Ù ∂±≤•±®∆˜\Trunk\SRC\Project\RTE-I "D:\Program Files (x86)\Keil 5.20\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I "D:\Program Files (x86)\Keil 5.20\ARM\CMSIS\Include"--pd "__UVISION_VERSION SETA 520" --pd "STM32F10X_MD SETA 1"--list ..\output\startup_stm32f10x_md.lst --xref -o ..\output\startup_stm32f10x_md.o --depend ..\output\startup_stm32f10x_md.d)
+F (..\Lib_code\SysLib\BestFu_STM32F10X_10200.lib)(0x5785E33C)()
+F (..\Lib_code\SysHard\DeviceReset.c)(0x5791E17E)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\Core -I ..\Lib_code\App -I ..\Lib_code\SysHard\inc -I ..\Lib_code\SysLib\inc -I ..\User\Key -I ..\User\LED -I ..\User\VoicePlay -I ..\User\VoiceRecognition -I ..\User\PowerStatus -I ..\User\VOICE -I ..\User\WT558D-I E:\xjx\---ing\”Ô“Ù-\48.”Ô“Ù ∂±≤•±®∆˜\Trunk\SRC\Project\RTE-I "D:\Program Files (x86)\Keil 5.20\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I "D:\Program Files (x86)\Keil 5.20\ARM\CMSIS\Include"-D__UVISION_VERSION="520" -DSTM32F10X_MD-o ..\output\devicereset.o --omf_browse ..\output\devicereset.crf --depend ..\output\devicereset.d)
+I (..\Lib_code\SysHard\inc\DeviceReset.h)(0x5785E340)
+I (..\Lib_code\SysHard\inc\SysHard.h)(0x57958C3A)
+I (..\Lib_code\App\BF_type.h)(0x5785E33C)
+I (..\Lib_code\SysLib\inc\BestFuLib.h)(0x5785E33D)
+I (..\Lib_code\SysHard\inc\flash.h)(0x5785E340)
+I (..\Lib_code\SysLib\inc\Thread.h)(0x5785E33D)
+I (..\Lib_code\SysHard\inc\GPIO.h)(0x5785E340)
+I (..\Lib_code\SysLib\inc\UserData.h)(0x5785E33D)
+I (..\Lib_code\SysLib\inc\UnitShare_Attr.h)(0x5785E33D)
+I (..\Lib_code\App\UnitCfg.h)(0x5785E33C)
+I (..\Lib_code\SysLib\inc\DlyAttrProcess.h)(0x5785E33D)
+I (..\Lib_code\SysLib\inc\linkcommon.h)(0x5785E33D)
+I (..\User\WT558D\WT588D.h)(0x57514634)
+F (..\Lib_code\SysHard\Flash.c)(0x5785E340)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\Core -I ..\Lib_code\App -I ..\Lib_code\SysHard\inc -I ..\Lib_code\SysLib\inc -I ..\User\Key -I ..\User\LED -I ..\User\VoicePlay -I ..\User\VoiceRecognition -I ..\User\PowerStatus -I ..\User\VOICE -I ..\User\WT558D-I E:\xjx\---ing\”Ô“Ù-\48.”Ô“Ù ∂±≤•±®∆˜\Trunk\SRC\Project\RTE-I "D:\Program Files (x86)\Keil 5.20\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I "D:\Program Files (x86)\Keil 5.20\ARM\CMSIS\Include"-D__UVISION_VERSION="520" -DSTM32F10X_MD-o ..\output\flash.o --omf_browse ..\output\flash.crf --depend ..\output\flash.d)
+I (..\Lib_code\App\BF_type.h)(0x5785E33C)
+I (..\Lib_code\SysLib\inc\BestFuLib.h)(0x5785E33D)
+I (..\Core\stm32f10x.h)(0x5785E33F)
+I (..\Core\core_cm3.h)(0x5785E33F)
+I (D:\Program Files (x86)\Keil 5.20\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (..\Core\system_stm32f10x.h)(0x5785E33F)
+I (..\Lib_code\SysHard\inc\Flash.h)(0x5785E340)
+F (..\Lib_code\SysHard\Gpio.c)(0x5785E33F)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\Core -I ..\Lib_code\App -I ..\Lib_code\SysHard\inc -I ..\Lib_code\SysLib\inc -I ..\User\Key -I ..\User\LED -I ..\User\VoicePlay -I ..\User\VoiceRecognition -I ..\User\PowerStatus -I ..\User\VOICE -I ..\User\WT558D-I E:\xjx\---ing\”Ô“Ù-\48.”Ô“Ù ∂±≤•±®∆˜\Trunk\SRC\Project\RTE-I "D:\Program Files (x86)\Keil 5.20\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I "D:\Program Files (x86)\Keil 5.20\ARM\CMSIS\Include"-D__UVISION_VERSION="520" -DSTM32F10X_MD-o ..\output\gpio.o --omf_browse ..\output\gpio.crf --depend ..\output\gpio.d)
+I (..\Lib_code\SysHard\inc\GPIO.h)(0x5785E340)
+I (..\Lib_code\App\BF_type.h)(0x5785E33C)
+I (..\Lib_code\SysLib\inc\BestFuLib.h)(0x5785E33D)
+I (..\Core\stm32f10x.h)(0x5785E33F)
+I (..\Core\core_cm3.h)(0x5785E33F)
+I (D:\Program Files (x86)\Keil 5.20\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (..\Core\system_stm32f10x.h)(0x5785E33F)
+F (..\Lib_code\SysHard\I2C.C)(0x5785E340)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\Core -I ..\Lib_code\App -I ..\Lib_code\SysHard\inc -I ..\Lib_code\SysLib\inc -I ..\User\Key -I ..\User\LED -I ..\User\VoicePlay -I ..\User\VoiceRecognition -I ..\User\PowerStatus -I ..\User\VOICE -I ..\User\WT558D-I E:\xjx\---ing\”Ô“Ù-\48.”Ô“Ù ∂±≤•±®∆˜\Trunk\SRC\Project\RTE-I "D:\Program Files (x86)\Keil 5.20\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I "D:\Program Files (x86)\Keil 5.20\ARM\CMSIS\Include"-D__UVISION_VERSION="520" -DSTM32F10X_MD-o ..\output\i2c.o --omf_browse ..\output\i2c.crf --depend ..\output\i2c.d)
+I (..\Lib_code\SysHard\inc\I2C.h)(0x5785E340)
+I (..\Lib_code\SysHard\inc\GPIO.h)(0x5785E340)
+I (..\Lib_code\App\BF_type.h)(0x5785E33C)
+I (..\Lib_code\SysLib\inc\BestFuLib.h)(0x5785E33D)
+I (..\Lib_code\SysHard\inc\SysHard.h)(0x57958C3A)
+I (..\Lib_code\SysHard\inc\flash.h)(0x5785E340)
+F (..\Lib_code\SysHard\Instruct.c)(0x5785E340)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\Core -I ..\Lib_code\App -I ..\Lib_code\SysHard\inc -I ..\Lib_code\SysLib\inc -I ..\User\Key -I ..\User\LED -I ..\User\VoicePlay -I ..\User\VoiceRecognition -I ..\User\PowerStatus -I ..\User\VOICE -I ..\User\WT558D-I E:\xjx\---ing\”Ô“Ù-\48.”Ô“Ù ∂±≤•±®∆˜\Trunk\SRC\Project\RTE-I "D:\Program Files (x86)\Keil 5.20\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I "D:\Program Files (x86)\Keil 5.20\ARM\CMSIS\Include"-D__UVISION_VERSION="520" -DSTM32F10X_MD-o ..\output\instruct.o --omf_browse ..\output\instruct.crf --depend ..\output\instruct.d)
+I (..\Lib_code\SysHard\inc\Instruct.h)(0x5785E340)
+I (..\Lib_code\App\BF_type.h)(0x5785E33C)
+I (..\Lib_code\SysLib\inc\BestFuLib.h)(0x5785E33D)
+I (..\Lib_code\SysHard\inc\SysHard.h)(0x57958C3A)
+I (..\Lib_code\SysHard\inc\flash.h)(0x5785E340)
+I (..\Lib_code\SysHard\inc\GPIO.h)(0x5785E340)
+I (..\Lib_code\SysLib\inc\Thread.h)(0x5785E33D)
+F (..\Lib_code\SysHard\Program.c)(0x5785E340)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\Core -I ..\Lib_code\App -I ..\Lib_code\SysHard\inc -I ..\Lib_code\SysLib\inc -I ..\User\Key -I ..\User\LED -I ..\User\VoicePlay -I ..\User\VoiceRecognition -I ..\User\PowerStatus -I ..\User\VOICE -I ..\User\WT558D-I E:\xjx\---ing\”Ô“Ù-\48.”Ô“Ù ∂±≤•±®∆˜\Trunk\SRC\Project\RTE-I "D:\Program Files (x86)\Keil 5.20\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I "D:\Program Files (x86)\Keil 5.20\ARM\CMSIS\Include"-D__UVISION_VERSION="520" -DSTM32F10X_MD-o ..\output\program.o --omf_browse ..\output\program.crf --depend ..\output\program.d)
+I (..\Core\stm32f10x.h)(0x5785E33F)
+I (..\Core\core_cm3.h)(0x5785E33F)
+I (D:\Program Files (x86)\Keil 5.20\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (..\Core\system_stm32f10x.h)(0x5785E33F)
+I (..\Lib_code\SysHard\inc\program.h)(0x5785E340)
+I (..\Lib_code\App\BF_type.h)(0x5785E33C)
+I (..\Lib_code\SysLib\inc\BestFuLib.h)(0x5785E33D)
+I (..\Lib_code\SysHard\inc\flash.h)(0x5785E340)
+I (..\Lib_code\SysLib\inc\DeviceIDSetAttr.h)(0x5785E33D)
+I (..\Lib_code\App\UnitCfg.h)(0x5785E33C)
+I (..\Lib_code\SysLib\inc\UserData.h)(0x5785E33D)
+F (..\Lib_code\SysHard\SI4432.c)(0x5785E340)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\Core -I ..\Lib_code\App -I ..\Lib_code\SysHard\inc -I ..\Lib_code\SysLib\inc -I ..\User\Key -I ..\User\LED -I ..\User\VoicePlay -I ..\User\VoiceRecognition -I ..\User\PowerStatus -I ..\User\VOICE -I ..\User\WT558D-I E:\xjx\---ing\”Ô“Ù-\48.”Ô“Ù ∂±≤•±®∆˜\Trunk\SRC\Project\RTE-I "D:\Program Files (x86)\Keil 5.20\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I "D:\Program Files (x86)\Keil 5.20\ARM\CMSIS\Include"-D__UVISION_VERSION="520" -DSTM32F10X_MD-o ..\output\si4432.o --omf_browse ..\output\si4432.crf --depend ..\output\si4432.d)
+I (..\Lib_code\SysHard\inc\si4432.h)(0x5785E340)
+I (..\Lib_code\App\BF_type.h)(0x5785E33C)
+I (..\Lib_code\SysLib\inc\BestFuLib.h)(0x5785E33D)
+I (..\Lib_code\SysHard\inc\GPIO.h)(0x5785E340)
+I (..\Lib_code\SysHard\inc\sys.h)(0x5785E340)
+I (..\Core\stm32f10x.h)(0x5785E33F)
+I (..\Core\core_cm3.h)(0x5785E33F)
+I (D:\Program Files (x86)\Keil 5.20\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (..\Core\system_stm32f10x.h)(0x5785E33F)
+I (..\Lib_code\SysLib\inc\delay.h)(0x5785E33D)
+I (..\Lib_code\SysHard\inc\SPI.h)(0x5785E340)
+I (..\Lib_code\SysLib\inc\cmdProcess.h)(0x5785E33D)
+I (..\Lib_code\SysLib\inc\FIFO.h)(0x5785E33D)
+I (..\Lib_code\App\UnitCfg.h)(0x5785E33C)
+I (..\Lib_code\SysLib\inc\UserData.h)(0x5785E33D)
+I (..\Lib_code\SysLib\inc\command.h)(0x5785E33D)
+I (..\Lib_code\SysLib\inc\Updata.h)(0x5785E33D)
+I (..\Lib_code\SysHard\inc\SysHard.h)(0x57958C3A)
+I (..\Lib_code\SysHard\inc\flash.h)(0x5785E340)
+I (..\Lib_code\SysLib\inc\Thread.h)(0x5785E33D)
+I (..\Lib_code\SysLib\inc\FaultManage.h)(0x5785E33D)
+I (..\Lib_code\SysHard\inc\SysTick.h)(0x5785E340)
+I (..\Lib_code\SysLib\inc\Sign433.h)(0x5785E33D)
+I (..\Lib_code\SysLib\inc\MsgPackage.h)(0x5785E33D)
+I (..\Lib_code\SysLib\inc\DataEncrypt.h)(0x5785E33D)
+F (..\Lib_code\SysHard\SPI.c)(0x5785E340)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\Core -I ..\Lib_code\App -I ..\Lib_code\SysHard\inc -I ..\Lib_code\SysLib\inc -I ..\User\Key -I ..\User\LED -I ..\User\VoicePlay -I ..\User\VoiceRecognition -I ..\User\PowerStatus -I ..\User\VOICE -I ..\User\WT558D-I E:\xjx\---ing\”Ô“Ù-\48.”Ô“Ù ∂±≤•±®∆˜\Trunk\SRC\Project\RTE-I "D:\Program Files (x86)\Keil 5.20\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I "D:\Program Files (x86)\Keil 5.20\ARM\CMSIS\Include"-D__UVISION_VERSION="520" -DSTM32F10X_MD-o ..\output\spi.o --omf_browse ..\output\spi.crf --depend ..\output\spi.d)
+I (..\Lib_code\SysHard\inc\spi.h)(0x5785E340)
+I (..\Lib_code\SysHard\inc\sys.h)(0x5785E340)
+I (..\Core\stm32f10x.h)(0x5785E33F)
+I (..\Core\core_cm3.h)(0x5785E33F)
+I (D:\Program Files (x86)\Keil 5.20\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (..\Core\system_stm32f10x.h)(0x5785E33F)
+I (..\Lib_code\App\BF_type.h)(0x5785E33C)
+I (..\Lib_code\SysLib\inc\BestFuLib.h)(0x5785E33D)
+F (..\Lib_code\SysHard\Sys.c)(0x5785E33F)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\Core -I ..\Lib_code\App -I ..\Lib_code\SysHard\inc -I ..\Lib_code\SysLib\inc -I ..\User\Key -I ..\User\LED -I ..\User\VoicePlay -I ..\User\VoiceRecognition -I ..\User\PowerStatus -I ..\User\VOICE -I ..\User\WT558D-I E:\xjx\---ing\”Ô“Ù-\48.”Ô“Ù ∂±≤•±®∆˜\Trunk\SRC\Project\RTE-I "D:\Program Files (x86)\Keil 5.20\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I "D:\Program Files (x86)\Keil 5.20\ARM\CMSIS\Include"-D__UVISION_VERSION="520" -DSTM32F10X_MD-o ..\output\sys.o --omf_browse ..\output\sys.crf --depend ..\output\sys.d)
+I (..\Core\stm32f10x.h)(0x5785E33F)
+I (..\Core\core_cm3.h)(0x5785E33F)
+I (D:\Program Files (x86)\Keil 5.20\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (..\Core\system_stm32f10x.h)(0x5785E33F)
+I (..\Lib_code\App\BF_type.h)(0x5785E33C)
+I (..\Lib_code\SysLib\inc\BestFuLib.h)(0x5785E33D)
+I (..\Lib_code\SysHard\inc\sys.h)(0x5785E340)
+F (..\Lib_code\SysHard\SysHard.c)(0x5785E340)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\Core -I ..\Lib_code\App -I ..\Lib_code\SysHard\inc -I ..\Lib_code\SysLib\inc -I ..\User\Key -I ..\User\LED -I ..\User\VoicePlay -I ..\User\VoiceRecognition -I ..\User\PowerStatus -I ..\User\VOICE -I ..\User\WT558D-I E:\xjx\---ing\”Ô“Ù-\48.”Ô“Ù ∂±≤•±®∆˜\Trunk\SRC\Project\RTE-I "D:\Program Files (x86)\Keil 5.20\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I "D:\Program Files (x86)\Keil 5.20\ARM\CMSIS\Include"-D__UVISION_VERSION="520" -DSTM32F10X_MD-o ..\output\syshard.o --omf_browse ..\output\syshard.crf --depend ..\output\syshard.d)
+I (..\Lib_code\SysHard\inc\sys.h)(0x5785E340)
+I (..\Core\stm32f10x.h)(0x5785E33F)
+I (..\Core\core_cm3.h)(0x5785E33F)
+I (D:\Program Files (x86)\Keil 5.20\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (..\Core\system_stm32f10x.h)(0x5785E33F)
+I (..\Lib_code\App\BF_type.h)(0x5785E33C)
+I (..\Lib_code\SysLib\inc\BestFuLib.h)(0x5785E33D)
+I (..\Lib_code\SysHard\inc\SysTick.h)(0x5785E340)
+I (..\Lib_code\SysHard\inc\SI4432.h)(0x5785E340)
+I (..\Lib_code\SysHard\inc\I2C.h)(0x5785E340)
+I (..\Lib_code\SysHard\inc\GPIO.h)(0x5785E340)
+I (..\Lib_code\SysHard\inc\SysHard.h)(0x57958C3A)
+I (..\Lib_code\SysHard\inc\flash.h)(0x5785E340)
+I (..\Lib_code\SysLib\inc\UserData.h)(0x5785E33D)
+I (..\Lib_code\SysHard\inc\program.h)(0x5785E340)
+I (..\Lib_code\SysLib\inc\DeviceIDSetAttr.h)(0x5785E33D)
+I (..\Lib_code\App\UnitCfg.h)(0x5785E33C)
+I (..\Lib_code\SysLib\inc\DevPartTab.h)(0x5785E33D)
+F (..\Lib_code\SysHard\SysTick.c)(0x5785E340)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\Core -I ..\Lib_code\App -I ..\Lib_code\SysHard\inc -I ..\Lib_code\SysLib\inc -I ..\User\Key -I ..\User\LED -I ..\User\VoicePlay -I ..\User\VoiceRecognition -I ..\User\PowerStatus -I ..\User\VOICE -I ..\User\WT558D-I E:\xjx\---ing\”Ô“Ù-\48.”Ô“Ù ∂±≤•±®∆˜\Trunk\SRC\Project\RTE-I "D:\Program Files (x86)\Keil 5.20\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I "D:\Program Files (x86)\Keil 5.20\ARM\CMSIS\Include"-D__UVISION_VERSION="520" -DSTM32F10X_MD-o ..\output\systick.o --omf_browse ..\output\systick.crf --depend ..\output\systick.d)
+I (..\Core\stm32f10x.h)(0x5785E33F)
+I (..\Core\core_cm3.h)(0x5785E33F)
+I (D:\Program Files (x86)\Keil 5.20\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (..\Core\system_stm32f10x.h)(0x5785E33F)
+I (..\Lib_code\SysHard\inc\SysTick.h)(0x5785E340)
+I (..\Lib_code\App\BF_type.h)(0x5785E33C)
+I (..\Lib_code\SysLib\inc\BestFuLib.h)(0x5785E33D)
+I (..\Lib_code\SysLib\inc\Thread.h)(0x5785E33D)
+F (..\Lib_code\SysHard\Test.c)(0x5785E33F)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\Core -I ..\Lib_code\App -I ..\Lib_code\SysHard\inc -I ..\Lib_code\SysLib\inc -I ..\User\Key -I ..\User\LED -I ..\User\VoicePlay -I ..\User\VoiceRecognition -I ..\User\PowerStatus -I ..\User\VOICE -I ..\User\WT558D-I E:\xjx\---ing\”Ô“Ù-\48.”Ô“Ù ∂±≤•±®∆˜\Trunk\SRC\Project\RTE-I "D:\Program Files (x86)\Keil 5.20\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I "D:\Program Files (x86)\Keil 5.20\ARM\CMSIS\Include"-D__UVISION_VERSION="520" -DSTM32F10X_MD-o ..\output\test.o --omf_browse ..\output\test.crf --depend ..\output\test.d)
+I (..\Lib_code\App\BF_type.h)(0x5785E33C)
+I (..\Lib_code\SysLib\inc\BestFuLib.h)(0x5785E33D)
+I (..\Lib_code\SysHard\inc\Test.h)(0x5785E340)
+I (..\Lib_code\SysLib\inc\cmdProcess.h)(0x5785E33D)
+I (..\Lib_code\SysLib\inc\FIFO.h)(0x5785E33D)
+I (..\Lib_code\App\UnitCfg.h)(0x5785E33C)
+I (..\Lib_code\SysLib\inc\UserData.h)(0x5785E33D)
+I (..\Lib_code\SysLib\inc\command.h)(0x5785E33D)
+I (..\Lib_code\SysHard\inc\USART.h)(0x5785E340)
+I (..\Lib_code\SysHard\inc\SysHard.h)(0x57958C3A)
+I (..\Lib_code\SysHard\inc\flash.h)(0x5785E340)
+I (..\Lib_code\SysHard\inc\GPIO.h)(0x5785E340)
+I (..\Lib_code\SysLib\inc\delay.h)(0x5785E33D)
+I (..\Lib_code\SysHard\inc\SI4432.h)(0x5785E340)
+F (..\Lib_code\SysHard\WDG.c)(0x5785E33F)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\Core -I ..\Lib_code\App -I ..\Lib_code\SysHard\inc -I ..\Lib_code\SysLib\inc -I ..\User\Key -I ..\User\LED -I ..\User\VoicePlay -I ..\User\VoiceRecognition -I ..\User\PowerStatus -I ..\User\VOICE -I ..\User\WT558D-I E:\xjx\---ing\”Ô“Ù-\48.”Ô“Ù ∂±≤•±®∆˜\Trunk\SRC\Project\RTE-I "D:\Program Files (x86)\Keil 5.20\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I "D:\Program Files (x86)\Keil 5.20\ARM\CMSIS\Include"-D__UVISION_VERSION="520" -DSTM32F10X_MD-o ..\output\wdg.o --omf_browse ..\output\wdg.crf --depend ..\output\wdg.d)
+I (..\Lib_code\App\BF_type.h)(0x5785E33C)
+I (..\Lib_code\SysLib\inc\BestFuLib.h)(0x5785E33D)
+I (..\Lib_code\SysHard\inc\GPIO.h)(0x5785E340)
+I (..\Core\stm32f10x.h)(0x5785E33F)
+I (..\Core\core_cm3.h)(0x5785E33F)
+I (D:\Program Files (x86)\Keil 5.20\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (..\Core\system_stm32f10x.h)(0x5785E33F)
+I (..\Lib_code\App\UnitCfg.h)(0x5785E33C)
+I (..\Lib_code\SysLib\inc\UserData.h)(0x5785E33D)
+I (..\Lib_code\SysLib\inc\Thread.h)(0x5785E33D)
+I (..\Lib_code\SysHard\inc\SysHard.h)(0x57958C3A)
+I (..\Lib_code\SysHard\inc\flash.h)(0x5785E340)
+I (..\Lib_code\SysHard\inc\wdg.h)(0x5785E340)
+F (..\Lib_code\App\main.c)(0x5791DE25)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\Core -I ..\Lib_code\App -I ..\Lib_code\SysHard\inc -I ..\Lib_code\SysLib\inc -I ..\User\Key -I ..\User\LED -I ..\User\VoicePlay -I ..\User\VoiceRecognition -I ..\User\PowerStatus -I ..\User\VOICE -I ..\User\WT558D-I E:\xjx\---ing\”Ô“Ù-\48.”Ô“Ù ∂±≤•±®∆˜\Trunk\SRC\Project\RTE-I "D:\Program Files (x86)\Keil 5.20\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I "D:\Program Files (x86)\Keil 5.20\ARM\CMSIS\Include"-D__UVISION_VERSION="520" -DSTM32F10X_MD-o ..\output\main.o --omf_browse ..\output\main.crf --depend ..\output\main.d)
+I (..\Lib_code\App\BF_type.h)(0x5785E33C)
+I (..\Lib_code\SysLib\inc\BestFuLib.h)(0x5785E33D)
+I (..\Lib_code\SysHard\inc\SysHard.h)(0x57958C3A)
+I (..\Lib_code\SysHard\inc\flash.h)(0x5785E340)
+I (..\Lib_code\SysLib\inc\Thread.h)(0x5785E33D)
+I (..\Lib_code\SysLib\inc\cmdProcess.h)(0x5785E33D)
+I (..\Lib_code\SysLib\inc\FIFO.h)(0x5785E33D)
+I (..\Lib_code\App\UnitCfg.h)(0x5785E33C)
+I (..\Lib_code\SysLib\inc\UserData.h)(0x5785E33D)
+I (..\Lib_code\SysLib\inc\command.h)(0x5785E33D)
+I (..\Lib_code\SysHard\inc\Instruct.h)(0x5785E340)
+I (..\Lib_code\SysHard\inc\wdg.h)(0x5785E340)
+I (..\Lib_code\SysHard\inc\DeviceReset.h)(0x5785E340)
+I (..\Lib_code\SysHard\inc\Test.h)(0x5785E340)
+I (..\User\VOICE\Lark7318DataAnalyze.h)(0x57D10903)
+I (..\Lib_code\SysHard\inc\sys.h)(0x5785E340)
+I (..\Core\stm32f10x.h)(0x5785E33F)
+I (..\Core\core_cm3.h)(0x5785E33F)
+I (D:\Program Files (x86)\Keil 5.20\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (..\Core\system_stm32f10x.h)(0x5785E33F)
+I (..\User\WT558D\WT588D.h)(0x57514634)
+I (..\Lib_code\SysHard\inc\gpio.h)(0x5785E340)
+I (..\User\VoicePlay\uart.h)(0x56E7EBDC)
+I (D:\Program Files (x86)\Keil 5.20\ARM\ARMCC\include\stdio.h)(0x56FE42DE)
+I (..\User\PowerStatus\PowerStatus.h)(0x57D10A87)
+F (..\Lib_code\App\UnitCfg.c)(0x5791D3A9)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\Core -I ..\Lib_code\App -I ..\Lib_code\SysHard\inc -I ..\Lib_code\SysLib\inc -I ..\User\Key -I ..\User\LED -I ..\User\VoicePlay -I ..\User\VoiceRecognition -I ..\User\PowerStatus -I ..\User\VOICE -I ..\User\WT558D-I E:\xjx\---ing\”Ô“Ù-\48.”Ô“Ù ∂±≤•±®∆˜\Trunk\SRC\Project\RTE-I "D:\Program Files (x86)\Keil 5.20\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I "D:\Program Files (x86)\Keil 5.20\ARM\CMSIS\Include"-D__UVISION_VERSION="520" -DSTM32F10X_MD-o ..\output\unitcfg.o --omf_browse ..\output\unitcfg.crf --depend ..\output\unitcfg.d)
+I (..\Lib_code\App\UnitCfg.h)(0x5785E33C)
+I (..\Lib_code\App\BF_type.h)(0x5785E33C)
+I (..\Lib_code\SysLib\inc\BestFuLib.h)(0x5785E33D)
+I (..\Lib_code\SysLib\inc\UserData.h)(0x5785E33D)
+I (..\Lib_code\SysLib\inc\SysExeAttr.h)(0x5785E33D)
+I (..\Lib_code\SysLib\inc\linkall.h)(0x5785E33D)
+I (..\Lib_code\SysLib\inc\Eeprom.h)(0x5785E33D)
+I (..\Lib_code\SysLib\inc\fifo.h)(0x5785E33D)
+I (..\Lib_code\SysLib\inc\linkcommon.h)(0x5785E33D)
+I (..\Lib_code\SysLib\inc\LinkScanFifo.h)(0x5785E33D)
+I (..\Lib_code\SysLib\inc\linksrc.h)(0x5785E33D)
+I (..\Lib_code\SysLib\inc\LinkWRDC.h)(0x5785E33D)
+I (..\Lib_code\SysLib\inc\MsgPackage.h)(0x5785E33D)
+I (..\Lib_code\SysLib\inc\command.h)(0x5785E33D)
+I (..\Lib_code\SysLib\inc\Thread.h)(0x5785E33D)
+I (..\Lib_code\SysLib\inc\Upload.h)(0x5785E33D)
+I (..\Lib_code\SysLib\inc\TimeHandle.h)(0x5785E33D)
+I (..\Lib_code\SysLib\inc\DlyAttrProcess.h)(0x5785E33D)
+I (..\Lib_code\SysLib\inc\linksimplest.h)(0x5785E33D)
+I (..\Lib_code\SysLib\inc\linksimplestTime.h)(0x5785E33D)
+I (..\User\VoiceRecognition\VoiceExeAttr.h)(0x571DD926)
+I (..\User\VoicePlay\VoicePlayUnit.h)(0x56EFC869)
+I (..\Lib_code\SysHard\inc\sys.h)(0x5785E340)
+I (..\Core\stm32f10x.h)(0x5785E33F)
+I (..\Core\core_cm3.h)(0x5785E33F)
+I (D:\Program Files (x86)\Keil 5.20\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (..\Core\system_stm32f10x.h)(0x5785E33F)
+F (..\User\Key\Key.c)(0x56EB78CA)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\Core -I ..\Lib_code\App -I ..\Lib_code\SysHard\inc -I ..\Lib_code\SysLib\inc -I ..\User\Key -I ..\User\LED -I ..\User\VoicePlay -I ..\User\VoiceRecognition -I ..\User\PowerStatus -I ..\User\VOICE -I ..\User\WT558D-I E:\xjx\---ing\”Ô“Ù-\48.”Ô“Ù ∂±≤•±®∆˜\Trunk\SRC\Project\RTE-I "D:\Program Files (x86)\Keil 5.20\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I "D:\Program Files (x86)\Keil 5.20\ARM\CMSIS\Include"-D__UVISION_VERSION="520" -DSTM32F10X_MD-o ..\output\key.o --omf_browse ..\output\key.crf --depend ..\output\key.d)
+I (..\User\Key\Key.h)(0x574D6F4D)
+I (..\Lib_code\App\BF_type.h)(0x5785E33C)
+I (..\Lib_code\SysLib\inc\BestFuLib.h)(0x5785E33D)
+I (..\Lib_code\SysHard\inc\GPIO.h)(0x5785E340)
+F (..\User\LED\LED.c)(0x56E68B3E)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\Core -I ..\Lib_code\App -I ..\Lib_code\SysHard\inc -I ..\Lib_code\SysLib\inc -I ..\User\Key -I ..\User\LED -I ..\User\VoicePlay -I ..\User\VoiceRecognition -I ..\User\PowerStatus -I ..\User\VOICE -I ..\User\WT558D-I E:\xjx\---ing\”Ô“Ù-\48.”Ô“Ù ∂±≤•±®∆˜\Trunk\SRC\Project\RTE-I "D:\Program Files (x86)\Keil 5.20\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I "D:\Program Files (x86)\Keil 5.20\ARM\CMSIS\Include"-D__UVISION_VERSION="520" -DSTM32F10X_MD-o ..\output\led.o --omf_browse ..\output\led.crf --depend ..\output\led.d)
+I (..\User\LED\LED.h)(0x56E68B73)
+I (..\Lib_code\App\BF_type.h)(0x5785E33C)
+I (..\Lib_code\SysLib\inc\BestFuLib.h)(0x5785E33D)
+I (..\Lib_code\SysHard\inc\GPIO.h)(0x5785E340)
+F (..\User\PowerStatus\adc.c)(0x56528606)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\Core -I ..\Lib_code\App -I ..\Lib_code\SysHard\inc -I ..\Lib_code\SysLib\inc -I ..\User\Key -I ..\User\LED -I ..\User\VoicePlay -I ..\User\VoiceRecognition -I ..\User\PowerStatus -I ..\User\VOICE -I ..\User\WT558D-I E:\xjx\---ing\”Ô“Ù-\48.”Ô“Ù ∂±≤•±®∆˜\Trunk\SRC\Project\RTE-I "D:\Program Files (x86)\Keil 5.20\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I "D:\Program Files (x86)\Keil 5.20\ARM\CMSIS\Include"-D__UVISION_VERSION="520" -DSTM32F10X_MD-o ..\output\adc.o --omf_browse ..\output\adc.crf --depend ..\output\adc.d)
+I (..\Lib_code\SysHard\inc\sys.h)(0x5785E340)
+I (..\Core\stm32f10x.h)(0x5785E33F)
+I (..\Core\core_cm3.h)(0x5785E33F)
+I (D:\Program Files (x86)\Keil 5.20\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (..\Core\system_stm32f10x.h)(0x5785E33F)
+I (..\Lib_code\App\BF_type.h)(0x5785E33C)
+I (..\Lib_code\SysLib\inc\BestFuLib.h)(0x5785E33D)
+I (..\User\PowerStatus\adc.h)(0x54BC7ECC)
+I (..\Lib_code\SysHard\inc\GPIO.h)(0x5785E340)
+F (..\User\PowerStatus\Capacity.c)(0x57D11D03)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\Core -I ..\Lib_code\App -I ..\Lib_code\SysHard\inc -I ..\Lib_code\SysLib\inc -I ..\User\Key -I ..\User\LED -I ..\User\VoicePlay -I ..\User\VoiceRecognition -I ..\User\PowerStatus -I ..\User\VOICE -I ..\User\WT558D-I E:\xjx\---ing\”Ô“Ù-\48.”Ô“Ù ∂±≤•±®∆˜\Trunk\SRC\Project\RTE-I "D:\Program Files (x86)\Keil 5.20\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I "D:\Program Files (x86)\Keil 5.20\ARM\CMSIS\Include"-D__UVISION_VERSION="520" -DSTM32F10X_MD-o ..\output\capacity.o --omf_browse ..\output\capacity.crf --depend ..\output\capacity.d)
+I (..\User\PowerStatus\Capacity.h)(0x54BC811D)
+I (..\Lib_code\App\BF_type.h)(0x5785E33C)
+I (..\Lib_code\SysLib\inc\BestFuLib.h)(0x5785E33D)
+I (..\User\PowerStatus\adc.h)(0x54BC7ECC)
+I (..\Lib_code\SysLib\inc\Thread.h)(0x5785E33D)
+I (..\User\PowerStatus\PWM.h)(0x5630406A)
+I (..\User\VoiceRecognition\VoiceRecognition.h)(0x57CFDE5E)
+I (..\Lib_code\App\UnitCfg.h)(0x5785E33C)
+I (..\Lib_code\SysLib\inc\UserData.h)(0x5785E33D)
+I (..\User\PowerStatus\PowerStatus.h)(0x57D10A87)
+I (..\User\VOICE\Lark7318DataAnalyze.h)(0x57D10903)
+I (..\Lib_code\SysHard\inc\sys.h)(0x5785E340)
+I (..\Core\stm32f10x.h)(0x5785E33F)
+I (..\Core\core_cm3.h)(0x5785E33F)
+I (D:\Program Files (x86)\Keil 5.20\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (..\Core\system_stm32f10x.h)(0x5785E33F)
+F (..\User\PowerStatus\PowerStatus.c)(0x57D10999)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\Core -I ..\Lib_code\App -I ..\Lib_code\SysHard\inc -I ..\Lib_code\SysLib\inc -I ..\User\Key -I ..\User\LED -I ..\User\VoicePlay -I ..\User\VoiceRecognition -I ..\User\PowerStatus -I ..\User\VOICE -I ..\User\WT558D-I E:\xjx\---ing\”Ô“Ù-\48.”Ô“Ù ∂±≤•±®∆˜\Trunk\SRC\Project\RTE-I "D:\Program Files (x86)\Keil 5.20\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I "D:\Program Files (x86)\Keil 5.20\ARM\CMSIS\Include"-D__UVISION_VERSION="520" -DSTM32F10X_MD-o ..\output\powerstatus.o --omf_browse ..\output\powerstatus.crf --depend ..\output\powerstatus.d)
+I (..\User\PowerStatus\PowerStatus.h)(0x57D10A87)
+I (..\Lib_code\App\BF_type.h)(0x5785E33C)
+I (..\Lib_code\SysLib\inc\BestFuLib.h)(0x5785E33D)
+I (..\Lib_code\SysHard\inc\GPIO.h)(0x5785E340)
+I (..\Lib_code\SysLib\inc\Thread.h)(0x5785E33D)
+I (..\Lib_code\SysHard\inc\wdg.h)(0x5785E340)
+I (..\User\VoiceRecognition\VoiceRecognition.h)(0x57CFDE5E)
+I (..\Lib_code\App\UnitCfg.h)(0x5785E33C)
+I (..\Lib_code\SysLib\inc\UserData.h)(0x5785E33D)
+I (..\Lib_code\SysHard\inc\usart.h)(0x5785E340)
+I (..\User\VoicePlay\uart.h)(0x56E7EBDC)
+I (..\User\VoicePlay\Lark7318.h)(0x56EFCDE5)
+I (..\Lib_code\SysHard\inc\sys.h)(0x5785E340)
+I (..\Core\stm32f10x.h)(0x5785E33F)
+I (..\Core\core_cm3.h)(0x5785E33F)
+I (D:\Program Files (x86)\Keil 5.20\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (..\Core\system_stm32f10x.h)(0x5785E33F)
+I (..\User\PowerStatus\PWM.h)(0x5630406A)
+I (..\User\LED\LED.h)(0x56E68B73)
+I (..\User\WT558D\WT588D.h)(0x57514634)
+F (..\User\VoicePlay\uart.c)(0x57D1098E)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\Core -I ..\Lib_code\App -I ..\Lib_code\SysHard\inc -I ..\Lib_code\SysLib\inc -I ..\User\Key -I ..\User\LED -I ..\User\VoicePlay -I ..\User\VoiceRecognition -I ..\User\PowerStatus -I ..\User\VOICE -I ..\User\WT558D-I E:\xjx\---ing\”Ô“Ù-\48.”Ô“Ù ∂±≤•±®∆˜\Trunk\SRC\Project\RTE-I "D:\Program Files (x86)\Keil 5.20\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I "D:\Program Files (x86)\Keil 5.20\ARM\CMSIS\Include"-D__UVISION_VERSION="520" -DSTM32F10X_MD-o ..\output\uart.o --omf_browse ..\output\uart.crf --depend ..\output\uart.d)
+I (..\User\VoicePlay\uart.h)(0x56E7EBDC)
+I (..\Lib_code\App\BF_type.h)(0x5785E33C)
+I (..\Lib_code\SysLib\inc\BestFuLib.h)(0x5785E33D)
+I (D:\Program Files (x86)\Keil 5.20\ARM\ARMCC\include\stdio.h)(0x56FE42DE)
+I (..\Lib_code\SysLib\inc\fifo.h)(0x5785E33D)
+I (..\Lib_code\SysHard\inc\GPIO.h)(0x5785E340)
+I (..\User\VoicePlay\Lark7318.h)(0x56EFCDE5)
+I (..\Lib_code\SysHard\inc\sys.h)(0x5785E340)
+I (..\Core\stm32f10x.h)(0x5785E33F)
+I (..\Core\core_cm3.h)(0x5785E33F)
+I (D:\Program Files (x86)\Keil 5.20\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (..\Core\system_stm32f10x.h)(0x5785E33F)
+I (..\User\VoiceRecognition\VoiceRecognition.h)(0x57CFDE5E)
+I (..\Lib_code\App\UnitCfg.h)(0x5785E33C)
+I (..\Lib_code\SysLib\inc\UserData.h)(0x5785E33D)
+I (..\Lib_code\SysLib\inc\Thread.h)(0x5785E33D)
+I (..\User\VOICE\Lark7318DataAnalyze.h)(0x57D10903)
+I (..\User\LED\LED.h)(0x56E68B73)
+I (..\Lib_code\SysHard\inc\wdg.h)(0x5785E340)
+I (..\User\VOICE\SYN7318Buf.h)(0x5768A308)
+I (..\User\PowerStatus\PowerStatus.h)(0x57D10A87)
+F (..\User\PowerStatus\PWM.c)(0x574ED872)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\Core -I ..\Lib_code\App -I ..\Lib_code\SysHard\inc -I ..\Lib_code\SysLib\inc -I ..\User\Key -I ..\User\LED -I ..\User\VoicePlay -I ..\User\VoiceRecognition -I ..\User\PowerStatus -I ..\User\VOICE -I ..\User\WT558D-I E:\xjx\---ing\”Ô“Ù-\48.”Ô“Ù ∂±≤•±®∆˜\Trunk\SRC\Project\RTE-I "D:\Program Files (x86)\Keil 5.20\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I "D:\Program Files (x86)\Keil 5.20\ARM\CMSIS\Include"-D__UVISION_VERSION="520" -DSTM32F10X_MD-o ..\output\pwm.o --omf_browse ..\output\pwm.crf --depend ..\output\pwm.d)
+I (..\Lib_code\SysHard\inc\Sys.h)(0x5785E340)
+I (..\Core\stm32f10x.h)(0x5785E33F)
+I (..\Core\core_cm3.h)(0x5785E33F)
+I (D:\Program Files (x86)\Keil 5.20\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (..\Core\system_stm32f10x.h)(0x5785E33F)
+I (..\Lib_code\App\BF_type.h)(0x5785E33C)
+I (..\Lib_code\SysLib\inc\BestFuLib.h)(0x5785E33D)
+I (..\Lib_code\SysHard\inc\GPIO.h)(0x5785E340)
+I (..\Lib_code\SysLib\inc\Thread.h)(0x5785E33D)
+I (..\User\PowerStatus\PWM.h)(0x5630406A)
+F (..\User\WT558D\WT558D.c)(0x575FB1CF)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\Core -I ..\Lib_code\App -I ..\Lib_code\SysHard\inc -I ..\Lib_code\SysLib\inc -I ..\User\Key -I ..\User\LED -I ..\User\VoicePlay -I ..\User\VoiceRecognition -I ..\User\PowerStatus -I ..\User\VOICE -I ..\User\WT558D-I E:\xjx\---ing\”Ô“Ù-\48.”Ô“Ù ∂±≤•±®∆˜\Trunk\SRC\Project\RTE-I "D:\Program Files (x86)\Keil 5.20\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I "D:\Program Files (x86)\Keil 5.20\ARM\CMSIS\Include"-D__UVISION_VERSION="520" -DSTM32F10X_MD-o ..\output\wt558d.o --omf_browse ..\output\wt558d.crf --depend ..\output\wt558d.d)
+I (..\User\WT558D\WT588D.h)(0x57514634)
+I (..\Lib_code\App\BF_type.h)(0x5785E33C)
+I (..\Lib_code\SysLib\inc\BestFuLib.h)(0x5785E33D)
+I (..\Lib_code\SysHard\inc\gpio.h)(0x5785E340)
+I (..\Lib_code\SysLib\inc\delay.h)(0x5785E33D)
+I (..\Lib_code\SysLib\inc\Thread.h)(0x5785E33D)
+I (..\Core\stm32f10x.h)(0x5785E33F)
+I (..\Core\core_cm3.h)(0x5785E33F)
+I (D:\Program Files (x86)\Keil 5.20\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (..\Core\system_stm32f10x.h)(0x5785E33F)
+I (..\Lib_code\SysHard\inc\sys.h)(0x5785E340)
+I (..\User\LED\LED.h)(0x56E68B73)
+I (..\User\VoiceRecognition\VoiceRecognition.h)(0x57CFDE5E)
+I (..\Lib_code\App\UnitCfg.h)(0x5785E33C)
+I (..\Lib_code\SysLib\inc\UserData.h)(0x5785E33D)
+I (..\User\PowerStatus\PowerStatus.h)(0x57D10A87)
+F (..\User\Key\KeyUnit.c)(0x57D1098E)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\Core -I ..\Lib_code\App -I ..\Lib_code\SysHard\inc -I ..\Lib_code\SysLib\inc -I ..\User\Key -I ..\User\LED -I ..\User\VoicePlay -I ..\User\VoiceRecognition -I ..\User\PowerStatus -I ..\User\VOICE -I ..\User\WT558D-I E:\xjx\---ing\”Ô“Ù-\48.”Ô“Ù ∂±≤•±®∆˜\Trunk\SRC\Project\RTE-I "D:\Program Files (x86)\Keil 5.20\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I "D:\Program Files (x86)\Keil 5.20\ARM\CMSIS\Include"-D__UVISION_VERSION="520" -DSTM32F10X_MD-o ..\output\keyunit.o --omf_browse ..\output\keyunit.crf --depend ..\output\keyunit.d)
+I (..\User\Key\KeyUnit.h)(0x56499500)
+I (..\User\Key\Key.h)(0x574D6F4D)
+I (..\Lib_code\App\BF_type.h)(0x5785E33C)
+I (..\Lib_code\SysLib\inc\BestFuLib.h)(0x5785E33D)
+I (..\Lib_code\SysHard\inc\GPIO.h)(0x5785E340)
+I (..\Lib_code\SysLib\inc\Thread.h)(0x5785E33D)
+I (..\User\VoiceRecognition\VoiceRecognition.h)(0x57CFDE5E)
+I (..\Lib_code\App\UnitCfg.h)(0x5785E33C)
+I (..\Lib_code\SysLib\inc\UserData.h)(0x5785E33D)
+I (..\User\PowerStatus\PWM.h)(0x5630406A)
+I (..\Lib_code\SysLib\inc\delay.h)(0x5785E33D)
+I (..\User\VoicePlay\uart.h)(0x56E7EBDC)
+I (D:\Program Files (x86)\Keil 5.20\ARM\ARMCC\include\stdio.h)(0x56FE42DE)
+I (..\Lib_code\SysLib\inc\fifo.h)(0x5785E33D)
+I (..\User\PowerStatus\PowerStatus.h)(0x57D10A87)
+I (..\User\LED\LED.h)(0x56E68B73)
+I (..\User\VOICE\Lark7318DataAnalyze.h)(0x57D10903)
+I (..\Lib_code\SysHard\inc\sys.h)(0x5785E340)
+I (..\Core\stm32f10x.h)(0x5785E33F)
+I (..\Core\core_cm3.h)(0x5785E33F)
+I (D:\Program Files (x86)\Keil 5.20\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (..\Core\system_stm32f10x.h)(0x5785E33F)
+I (..\User\WT558D\WT588D.h)(0x57514634)
+F (..\User\VoicePlay\VoicePlayUnit.c)(0x579974F0)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\Core -I ..\Lib_code\App -I ..\Lib_code\SysHard\inc -I ..\Lib_code\SysLib\inc -I ..\User\Key -I ..\User\LED -I ..\User\VoicePlay -I ..\User\VoiceRecognition -I ..\User\PowerStatus -I ..\User\VOICE -I ..\User\WT558D-I E:\xjx\---ing\”Ô“Ù-\48.”Ô“Ù ∂±≤•±®∆˜\Trunk\SRC\Project\RTE-I "D:\Program Files (x86)\Keil 5.20\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I "D:\Program Files (x86)\Keil 5.20\ARM\CMSIS\Include"-D__UVISION_VERSION="520" -DSTM32F10X_MD-o ..\output\voiceplayunit.o --omf_browse ..\output\voiceplayunit.crf --depend ..\output\voiceplayunit.d)
+I (..\User\VoicePlay\VoicePlayAttr.h)(0x571F1D6C)
+I (..\Lib_code\App\UnitCfg.h)(0x5785E33C)
+I (..\Lib_code\App\BF_type.h)(0x5785E33C)
+I (..\Lib_code\SysLib\inc\BestFuLib.h)(0x5785E33D)
+I (..\Lib_code\SysLib\inc\UserData.h)(0x5785E33D)
+I (..\User\VoiceRecognition\VoiceRecognition.h)(0x57CFDE5E)
+I (..\User\VoicePlay\VoicePlayUnit.h)(0x56EFC869)
+I (..\Lib_code\SysHard\inc\sys.h)(0x5785E340)
+I (..\Core\stm32f10x.h)(0x5785E33F)
+I (..\Core\core_cm3.h)(0x5785E33F)
+I (D:\Program Files (x86)\Keil 5.20\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (..\Core\system_stm32f10x.h)(0x5785E33F)
+I (..\Lib_code\SysLib\inc\Fifo.h)(0x5785E33D)
+I (..\User\VoicePlay\uart.h)(0x56E7EBDC)
+I (D:\Program Files (x86)\Keil 5.20\ARM\ARMCC\include\stdio.h)(0x56FE42DE)
+I (..\Lib_code\SysLib\inc\crc.h)(0x5785E33D)
+I (..\Lib_code\SysLib\inc\command.h)(0x5785E33D)
+I (..\User\VoicePlay\Lark7318.h)(0x56EFCDE5)
+I (..\Lib_code\SysLib\inc\delay.h)(0x5785E33D)
+I (..\Lib_code\SysLib\inc\Thread.h)(0x5785E33D)
+I (..\User\PowerStatus\PowerStatus.h)(0x57D10A87)
+I (..\User\WT558D\WT588D.h)(0x57514634)
+I (..\Lib_code\SysHard\inc\gpio.h)(0x5785E340)
+F (..\User\VoiceRecognition\VoiceRecognition.c)(0x57D1098E)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\Core -I ..\Lib_code\App -I ..\Lib_code\SysHard\inc -I ..\Lib_code\SysLib\inc -I ..\User\Key -I ..\User\LED -I ..\User\VoicePlay -I ..\User\VoiceRecognition -I ..\User\PowerStatus -I ..\User\VOICE -I ..\User\WT558D-I E:\xjx\---ing\”Ô“Ù-\48.”Ô“Ù ∂±≤•±®∆˜\Trunk\SRC\Project\RTE-I "D:\Program Files (x86)\Keil 5.20\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I "D:\Program Files (x86)\Keil 5.20\ARM\CMSIS\Include"-D__UVISION_VERSION="520" -DSTM32F10X_MD-o ..\output\voicerecognition.o --omf_browse ..\output\voicerecognition.crf --depend ..\output\voicerecognition.d)
+I (..\User\VoiceRecognition\VoiceRecognition.h)(0x57CFDE5E)
+I (..\Lib_code\App\UnitCfg.h)(0x5785E33C)
+I (..\Lib_code\App\BF_type.h)(0x5785E33C)
+I (..\Lib_code\SysLib\inc\BestFuLib.h)(0x5785E33D)
+I (..\Lib_code\SysLib\inc\UserData.h)(0x5785E33D)
+I (..\User\VoiceRecognition\VoiceExeAttr.h)(0x571DD926)
+I (..\User\VoicePlay\VoicePlayAttr.h)(0x571F1D6C)
+I (..\User\VoicePlay\VoicePlayUnit.h)(0x56EFC869)
+I (..\Lib_code\SysHard\inc\sys.h)(0x5785E340)
+I (..\Core\stm32f10x.h)(0x5785E33F)
+I (..\Core\core_cm3.h)(0x5785E33F)
+I (D:\Program Files (x86)\Keil 5.20\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (..\Core\system_stm32f10x.h)(0x5785E33F)
+I (..\Lib_code\SysLib\inc\Fifo.h)(0x5785E33D)
+I (..\Lib_code\SysHard\inc\SysHard.h)(0x57958C3A)
+I (..\Lib_code\SysHard\inc\flash.h)(0x5785E340)
+I (..\Lib_code\SysLib\inc\Thread.h)(0x5785E33D)
+I (..\User\LED\LED.h)(0x56E68B73)
+I (..\User\VoicePlay\uart.h)(0x56E7EBDC)
+I (D:\Program Files (x86)\Keil 5.20\ARM\ARMCC\include\stdio.h)(0x56FE42DE)
+I (..\User\PowerStatus\PowerStatus.h)(0x57D10A87)
+I (..\User\PowerStatus\Capacity.h)(0x54BC811D)
+I (..\User\Key\KeyUnit.h)(0x56499500)
+I (..\Lib_code\SysLib\inc\delay.h)(0x5785E33D)
+I (..\User\VoicePlay\Lark7318.h)(0x56EFCDE5)
+I (..\Lib_code\SysHard\inc\si4432.h)(0x5785E340)
+I (..\User\WT558D\WT588D.h)(0x57514634)
+I (..\Lib_code\SysHard\inc\gpio.h)(0x5785E340)
+I (..\User\VOICE\SYN7318Buf.h)(0x5768A308)
+I (..\User\VOICE\Lark7318DataAnalyze.h)(0x57D10903)
+I (D:\Program Files (x86)\Keil 5.20\ARM\ARMCC\include\stdlib.h)(0x56FE42DE)
+F (..\User\VoicePlay\VoicePlayAttr.c)(0x57B6B377)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\Core -I ..\Lib_code\App -I ..\Lib_code\SysHard\inc -I ..\Lib_code\SysLib\inc -I ..\User\Key -I ..\User\LED -I ..\User\VoicePlay -I ..\User\VoiceRecognition -I ..\User\PowerStatus -I ..\User\VOICE -I ..\User\WT558D-I E:\xjx\---ing\”Ô“Ù-\48.”Ô“Ù ∂±≤•±®∆˜\Trunk\SRC\Project\RTE-I "D:\Program Files (x86)\Keil 5.20\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I "D:\Program Files (x86)\Keil 5.20\ARM\CMSIS\Include"-D__UVISION_VERSION="520" -DSTM32F10X_MD-o ..\output\voiceplayattr.o --omf_browse ..\output\voiceplayattr.crf --depend ..\output\voiceplayattr.d)
+I (..\User\VoicePlay\VoicePlayAttr.h)(0x571F1D6C)
+I (..\Lib_code\App\UnitCfg.h)(0x5785E33C)
+I (..\Lib_code\App\BF_type.h)(0x5785E33C)
+I (..\Lib_code\SysLib\inc\BestFuLib.h)(0x5785E33D)
+I (..\Lib_code\SysLib\inc\UserData.h)(0x5785E33D)
+I (..\User\VoiceRecognition\VoiceRecognition.h)(0x57CFDE5E)
+I (..\Lib_code\SysHard\inc\sys.h)(0x5785E340)
+I (..\Core\stm32f10x.h)(0x5785E33F)
+I (..\Core\core_cm3.h)(0x5785E33F)
+I (D:\Program Files (x86)\Keil 5.20\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (..\Core\system_stm32f10x.h)(0x5785E33F)
+I (..\User\VoicePlay\VoicePlayUnit.h)(0x56EFC869)
+I (..\Lib_code\SysLib\inc\Fifo.h)(0x5785E33D)
+I (..\User\VoicePlay\Lark7318.h)(0x56EFCDE5)
+I (..\Lib_code\SysLib\inc\Thread.h)(0x5785E33D)
+I (..\User\VoicePlay\uart.h)(0x56E7EBDC)
+I (D:\Program Files (x86)\Keil 5.20\ARM\ARMCC\include\stdio.h)(0x56FE42DE)
+I (..\User\PowerStatus\PWM.h)(0x5630406A)
+I (..\Lib_code\SysLib\inc\delay.h)(0x5785E33D)
+I (..\User\WT558D\WT588D.h)(0x57514634)
+I (..\Lib_code\SysHard\inc\gpio.h)(0x5785E340)
+F (..\User\VoiceRecognition\VoiceExeAttr.c)(0x57D10903)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\Core -I ..\Lib_code\App -I ..\Lib_code\SysHard\inc -I ..\Lib_code\SysLib\inc -I ..\User\Key -I ..\User\LED -I ..\User\VoicePlay -I ..\User\VoiceRecognition -I ..\User\PowerStatus -I ..\User\VOICE -I ..\User\WT558D-I E:\xjx\---ing\”Ô“Ù-\48.”Ô“Ù ∂±≤•±®∆˜\Trunk\SRC\Project\RTE-I "D:\Program Files (x86)\Keil 5.20\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I "D:\Program Files (x86)\Keil 5.20\ARM\CMSIS\Include"-D__UVISION_VERSION="520" -DSTM32F10X_MD-o ..\output\voiceexeattr.o --omf_browse ..\output\voiceexeattr.crf --depend ..\output\voiceexeattr.d)
+I (..\User\VoiceRecognition\VoiceExeAttr.h)(0x571DD926)
+I (..\Lib_code\App\UnitCfg.h)(0x5785E33C)
+I (..\Lib_code\App\BF_type.h)(0x5785E33C)
+I (..\Lib_code\SysLib\inc\BestFuLib.h)(0x5785E33D)
+I (..\Lib_code\SysLib\inc\UserData.h)(0x5785E33D)
+I (..\User\VoiceRecognition\VoiceRecognition.h)(0x57CFDE5E)
+I (..\User\Key\KeyUnit.h)(0x56499500)
+I (..\User\VoicePlay\VoicePlayAttr.h)(0x571F1D6C)
+I (..\User\PowerStatus\PowerStatus.h)(0x57D10A87)
+I (..\User\VoicePlay\Lark7318.h)(0x56EFCDE5)
+I (..\Lib_code\SysHard\inc\sys.h)(0x5785E340)
+I (..\Core\stm32f10x.h)(0x5785E33F)
+I (..\Core\core_cm3.h)(0x5785E33F)
+I (D:\Program Files (x86)\Keil 5.20\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (..\Core\system_stm32f10x.h)(0x5785E33F)
+I (..\Lib_code\SysLib\inc\Thread.h)(0x5785E33D)
+I (..\User\VOICE\Lark7318DataAnalyze.h)(0x57D10903)
+I (..\User\WT558D\WT588D.h)(0x57514634)
+I (..\Lib_code\SysHard\inc\gpio.h)(0x5785E340)
+I (..\User\PowerStatus\adc.h)(0x54BC7ECC)
+I (..\User\LED\LED.h)(0x56E68B73)
+I (..\User\VoicePlay\uart.h)(0x56E7EBDC)
+I (D:\Program Files (x86)\Keil 5.20\ARM\ARMCC\include\stdio.h)(0x56FE42DE)
+I (..\Lib_code\SysLib\inc\fifo.h)(0x5785E33D)
+I (..\Lib_code\SysLib\inc\MsgPackage.h)(0x5785E33D)
+I (..\Lib_code\SysLib\inc\command.h)(0x5785E33D)
+F (..\User\VOICE\SYN7318Buf.c)(0x5799745C)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\Core -I ..\Lib_code\App -I ..\Lib_code\SysHard\inc -I ..\Lib_code\SysLib\inc -I ..\User\Key -I ..\User\LED -I ..\User\VoicePlay -I ..\User\VoiceRecognition -I ..\User\PowerStatus -I ..\User\VOICE -I ..\User\WT558D-I E:\xjx\---ing\”Ô“Ù-\48.”Ô“Ù ∂±≤•±®∆˜\Trunk\SRC\Project\RTE-I "D:\Program Files (x86)\Keil 5.20\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I "D:\Program Files (x86)\Keil 5.20\ARM\CMSIS\Include"-D__UVISION_VERSION="520" -DSTM32F10X_MD-o ..\output\syn7318buf.o --omf_browse ..\output\syn7318buf.crf --depend ..\output\syn7318buf.d)
+I (..\User\VoiceRecognition\VoiceRecognition.h)(0x57CFDE5E)
+I (..\Lib_code\App\UnitCfg.h)(0x5785E33C)
+I (..\Lib_code\App\BF_type.h)(0x5785E33C)
+I (..\Lib_code\SysLib\inc\BestFuLib.h)(0x5785E33D)
+I (..\Lib_code\SysLib\inc\UserData.h)(0x5785E33D)
+I (D:\Program Files (x86)\Keil 5.20\ARM\ARMCC\include\stdlib.h)(0x56FE42DE)
+I (..\User\VOICE\SYN7318Buf.h)(0x5768A308)
+F (..\User\VOICE\SYN7318DataAnalyze.c)(0x57D11A86)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\Core -I ..\Lib_code\App -I ..\Lib_code\SysHard\inc -I ..\Lib_code\SysLib\inc -I ..\User\Key -I ..\User\LED -I ..\User\VoicePlay -I ..\User\VoiceRecognition -I ..\User\PowerStatus -I ..\User\VOICE -I ..\User\WT558D-I E:\xjx\---ing\”Ô“Ù-\48.”Ô“Ù ∂±≤•±®∆˜\Trunk\SRC\Project\RTE-I "D:\Program Files (x86)\Keil 5.20\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I "D:\Program Files (x86)\Keil 5.20\ARM\CMSIS\Include"-D__UVISION_VERSION="520" -DSTM32F10X_MD-o ..\output\syn7318dataanalyze.o --omf_browse ..\output\syn7318dataanalyze.crf --depend ..\output\syn7318dataanalyze.d)
+I (..\User\VoicePlay\uart.h)(0x56E7EBDC)
+I (..\Lib_code\App\BF_type.h)(0x5785E33C)
+I (..\Lib_code\SysLib\inc\BestFuLib.h)(0x5785E33D)
+I (D:\Program Files (x86)\Keil 5.20\ARM\ARMCC\include\stdio.h)(0x56FE42DE)
+I (..\Lib_code\SysLib\inc\fifo.h)(0x5785E33D)
+I (..\Lib_code\SysHard\inc\sys.h)(0x5785E340)
+I (..\Core\stm32f10x.h)(0x5785E33F)
+I (..\Core\core_cm3.h)(0x5785E33F)
+I (D:\Program Files (x86)\Keil 5.20\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (..\Core\system_stm32f10x.h)(0x5785E33F)
+I (..\Lib_code\SysLib\inc\Thread.h)(0x5785E33D)
+I (D:\Program Files (x86)\Keil 5.20\ARM\ARMCC\include\stdlib.h)(0x56FE42DE)
+I (..\Lib_code\SysLib\inc\cmdProcess.h)(0x5785E33D)
+I (..\Lib_code\App\UnitCfg.h)(0x5785E33C)
+I (..\Lib_code\SysLib\inc\UserData.h)(0x5785E33D)
+I (..\Lib_code\SysLib\inc\command.h)(0x5785E33D)
+I (..\User\VoiceRecognition\VoiceRecognition.h)(0x57CFDE5E)
+I (..\User\Key\KeyUnit.h)(0x56499500)
+I (..\User\VoicePlay\VoicePlayAttr.h)(0x571F1D6C)
+I (..\User\VOICE\Lark7318DataAnalyze.h)(0x57D10903)
+I (..\User\LED\LED.h)(0x56E68B73)
+I (..\User\WT558D\WT588D.h)(0x57514634)
+I (..\Lib_code\SysHard\inc\gpio.h)(0x5785E340)
+I (..\User\PowerStatus\PowerStatus.h)(0x57D10A87)
+I (..\Lib_code\SysLib\inc\MsgPackage.h)(0x5785E33D)
+I (..\Lib_code\SysLib\inc\delay.h)(0x5785E33D)
+I (..\User\VOICE\SYN7318Buf.h)(0x5768A308)
